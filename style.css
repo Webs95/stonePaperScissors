@@ -6,8 +6,10 @@ html {
 }
 
 body {
+  height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   background: #f12711; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -30,7 +32,6 @@ button {
 
 .container {
   width: 600px;
-  margin-top: 8%;
   border: 2px solid rgb(248, 248, 248);
   border-radius: 4px;
 }
